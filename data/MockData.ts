@@ -40,7 +40,7 @@ import TruePointlogo from "@/public/assets/logos/TruePoint logo.png";
 import NSAlogo from "@/public/assets/logos/NAS logo.png";
 import N1 from "@/public/assets/Define the problem - road closed - bridge - stopped.jpg";
 import N2 from "@/public/assets/Businessman - blue - square for service offerings.jpg";
-import N3 from "@/public/assets/Java Lemur #2 640.jpg";
+import N3 from "@/public/assets/Java-Lemur-2640.jpg";
 import N4 from "@/public/assets/Aristotle – knowing yourself is the beginning of wisdom.jpg";
 import N5 from "@/public/assets/27580_elephant_elephants.jpg";
 import N6 from "@/public/assets/King Penguins - the bridge-maker.jpg";
