@@ -96,7 +96,7 @@ const Pyramid = (props: PyramidProps) => {
                                         <AccordionContent className="mt-4 p-4 bg-white text-black rounded-b-3xl">
                                             <HighlightText
                                                 text={props.pyramid.desc4}
-                                                className="lg:text-lg text-base text-center whitespace-pre-wrap"
+                                                className="lg:text-lg text-base text-left whitespace-pre-wrap"
                                             />
                                         </AccordionContent>
                                     )}
@@ -130,7 +130,7 @@ const Pyramid = (props: PyramidProps) => {
                                         <AccordionContent className="mt-4 p-4 bg-white text-black rounded-b-3xl">
                                             <HighlightText
                                                 text={props.pyramid.desc3}
-                                                className="lg:text-lg text-base text-center whitespace-pre-wrap"
+                                                className="lg:text-lg text-base text-left whitespace-pre-wrap"
                                             />
                                         </AccordionContent>
                                     )}
@@ -164,7 +164,7 @@ const Pyramid = (props: PyramidProps) => {
                                         <AccordionContent className="mt-4 p-4 bg-white text-black rounded-b-3xl">
                                             <HighlightText
                                                 text={props.pyramid.desc2}
-                                                className="lg:text-lg text-base text-center whitespace-pre-wrap"
+                                                className="lg:text-lg text-base text-left whitespace-pre-wrap"
                                             />
                                         </AccordionContent>
                                     )}
@@ -198,7 +198,7 @@ const Pyramid = (props: PyramidProps) => {
                                         <AccordionContent className="mt-4 p-4 bg-white text-black rounded-b-3xl">
                                             <HighlightText
                                                 text={props.pyramid.desc1}
-                                                className="lg:text-lg text-base text-center whitespace-pre-wrap"
+                                                className="lg:text-lg text-base text-left whitespace-pre-wrap"
                                             />
                                         </AccordionContent>
                                     )}

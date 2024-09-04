@@ -82,7 +82,7 @@ const CardsComponent = (props: CardsComponentProps) => {
                                     )}
                                     style={{ background: item.color ?? "" }}
                                 >
-                                    {/*<div className="w-full px-8 pt-10 rounded-tr-2xl rounded-bl-2xl">
+                                    <div className="w-full px-8 pt-10 rounded-tr-2xl rounded-bl-2xl">
                                         <Image
                                             src={item.img}
                                             alt={item.title}
@@ -91,7 +91,7 @@ const CardsComponent = (props: CardsComponentProps) => {
                                             layout="responsive"
                                             className="rounded-tr-2xl rounded-bl-2xl  aspect-3/2"
                                         />
-                                    </div>*/}
+                                    </div>
                                     <div className="px-8 lg:py-10 py-5 lg:gap-4 gap-2 flex flex-col flex-grow">
                                         <HighlightText
                                             text={item.title}

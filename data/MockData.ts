@@ -49,6 +49,10 @@ import N8 from "@/public/assets/SouthGeorgia,SalisburyPlain,PenguinsCouple,2006 
 import N9 from "@/public/assets/successful female manager 3.jpeg";
 import N10 from "@/public/assets/penguin - allies  puffed chest.jpeg";
 import N11 from "@/public/assets/PTO venn diagram 4g.png";
+import whatwedo1 from "@/public/assets/clinical-research-graph.jpg";
+import whatwedo2 from "@/public/assets/Woman-emotions-in-cells-face-show hide-swings.jpg";
+import whatwedo3 from "@/public/assets/Village-India-scene-weaving.jpg";
+import Image from "next/image";
 
 export const DEMO_TESTIMONIES = [
     {
@@ -321,13 +325,14 @@ export const DUMMY_WHAT_WE_DO_DATA = [
     {
         id: 1,
         title: "Evaluation / Assessment",
-        desc: "How can I/we get the right amount and type of guidance I/we need?",
+        desc: "Do we have a problem? \nEvaluation/assessment to answer the five questions.",
         color: "#266480",
         popup: {
-            text: "Learn more",
+            text: "Learn about the protocol",
             type: "text",
             link: `We go to our family doctors every year even though there’s nothing wrong.\n\nSo what if we did that for our families health? It wouldn’t be as much about solving problems as it would be about everybody getting a chance to be heard.  And about enjoying each other at the same time.\n\nBecause time flies. And kids grow quickly.\n\nFormat\n<t>1) we have a call to establish your hopes for the tuneup</t>\n<t>2) we meet for 1½ hours – in my office or your home</t>\n<t>3) you have a good year and see you next year</t>\n<t></t>`,
         },
+        img: whatwedo1,
     },
     {
         id: 2,
@@ -350,7 +355,20 @@ export const DUMMY_WHAT_WE_DO_DATA = [
             type: "text",
             link: `Every generation faces challenges. And Gen Z is no different – except that the challenges are bigger. Empirically bigger.\n\nMost young adults find their way – this just makes it less expensive, stronger and faster.\n\nFormat\n<t>Most tools are free to use on your own</t>\n<t>Assessment and goal setting only</t>\n<t>Young adult support groups</t>\n<t>One-on-one with Mitch</t>\n<t>Parent support groups</t>`,
         },
+        img: whatwedo2,
     },
+    {
+        id: 4,
+        title: "Life Skill Learning",
+        desc: "When you just need a little nudge to address a specific life circumstance",
+        color: "#048404",
+        popup: {
+            text: "Learn more",
+            type: "text",
+            link: `Every generation faces challenges. And Gen Z is no different – except that the challenges are bigger. Empirically bigger.\n\nMost young adults find their way – this just makes it less expensive, stronger and faster.\n\nFormat\n<t>Most tools are free to use on your own</t>\n<t>Assessment and goal setting only</t>\n<t>Young adult support groups</t>\n<t>One-on-one with Mitch</t>\n<t>Parent support groups</t>`,
+        },
+        img: whatwedo3,
+    },    
 ];
 
 export const DUMMY_PERSONAL_GROWTH_DATA = [

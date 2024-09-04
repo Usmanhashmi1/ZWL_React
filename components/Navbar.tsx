@@ -100,7 +100,7 @@ const Navbar = (props: NavbarProps) => {
                                         </SheetTrigger> */}
                                         <SheetTrigger asChild>
                                             <Link
-                                                to="Who"
+                                                to="WhO"
                                                 className="cursor-pointer font-normal md:text-2xl text-xl text-primary bg-[#E8DED4] hover:bg-[#F4EADF] rounded-xl w-full text-start px-4 py-1"
                                                 offset={-60}
                                                 duration={500}
@@ -138,7 +138,7 @@ const Navbar = (props: NavbarProps) => {
                             spy={true}
                             className="cursor-pointer"
                         >
-                            <p className="text-4xl font-bold text-[#df7a2e]">ZWL</p>
+                            <p className="text-4xl font-bold text-[#df7a2e]">Zero Wait List</p>
                         </Link>
 
                         <div className="border lg:gap-8 gap-6 text-primary font-normal text-2xl py-6 rounded-full border-black flex items-center justify-center lg:px-20 px-8">
@@ -160,7 +160,7 @@ const Navbar = (props: NavbarProps) => {
                                 smooth={true}
                                 spy={true}
                             >
-                                What
+                                What we do
                             </Link>
                             <Link
                                 to="How"
@@ -170,7 +170,7 @@ const Navbar = (props: NavbarProps) => {
                                 smooth={true}
                                 spy={true}
                             >
-                                How
+                                How we do it
                             </Link>
                             {/* <Link
                                 to="Tools"
@@ -190,7 +190,7 @@ const Navbar = (props: NavbarProps) => {
                                 smooth={true}
                                 spy={true}
                             >
-                                Who
+                                Partner
                             </Link>
                             <Link
                                 to="Contact"
@@ -200,7 +200,7 @@ const Navbar = (props: NavbarProps) => {
                                 smooth={true}
                                 spy={true}
                             >
-                                Contact
+                                Who we are
                             </Link>
                         </div>
                     </div>

@@ -42,7 +42,7 @@ const WhatMakesDifferentSection = (props: WhatMakesDifferentSectionProps) => {
             <div className="md:max-w-[640px]">
                 <HighlightText
                     text={props.desc}
-                    className="lg:text-3xl text-2xl text-center font-normal whitespace-pre-wrap"
+                    className="lg:text-2xl text-1xl text-center font-normal whitespace-pre-wrap"
                 />
             </div>
 
