@@ -143,7 +143,7 @@ export const DEMO_WHAT_MAKES_DIFFERENT = [
         id: 1,
         title: "Define the problem",
         color: "#048404",
-        desc: `One of us has heard hundreds of pitches from businesses looking for investment.\nAnd one of his biggest gripes is that the executives don’t clearly define the problem they are solving–they\nstart right off with their most excellent solution.\n\nWe want to help you get things right from the start by defining an important and solvable problem.\nSo that the goal is clear and you can access additional people and resources you hadn’t thought of.\n\nFormat:\n    Tier 1 -Self-help\n     Tier 2 - Skillshop\n     Tier4 - One-on-one`,
+        desc: `Investment pitches begin with defining the problem the company solves. And a high percentage of counseling failures consist in not clearly defining a solvable problem.\n\nWe want to get you started on the right foot.\nSo that the result you want and the path to reach it are both clear.\n\nFormat:\n\n<t>1) \tTier 1</t>\n<t>2)\tTier 2</t>\n<t>3)\tTier 4</t>`,
         img: [N1],
         /*moreInfo: {
             title: "",
@@ -156,7 +156,7 @@ export const DEMO_WHAT_MAKES_DIFFERENT = [
         id: 2,
         title: "What to expect from therapy",
         color: "#906F2E",
-        desc: `You know you need some help, you don't know who to go to or if it will do any good. And you need to be able to depend on your therapist. It's a vulnerable place to be.\n\nBut, luckily/unluckily, your therapist isn't the biggest predictor of how much you will benefit. You are.\n\n The "better" you are at being a client the more you are able to do the work the more you will get what you need.\n\nEven if you've received counseling before, learning the "rules of engagement" help set your expectations and enhance your motivation.\n\nFormat:\n  Tier 2 -Skillshop`,
+        desc: `You know you need some help, you don't know who to go to or if it will do any good. And you need to be able to depend on your therapist. It's a vulnerable place to be.\n\nBut, luckily/unluckily, your therapist isn't the biggest predictor of how much you will benefit. You are.\n\n The "better" you are at being a client the more you are able to do the work the more you will get what you need.\n\nEven if you've received counseling before, learning the "rules of engagement" help set your expectations and enhance your motivation. it all stays the same except for you going out for dinner and going with Mandy whom\n\nFormat:\n  Tier 2 -Skillshop`,
         img: [N2],
     },
     {
@@ -164,7 +164,7 @@ export const DEMO_WHAT_MAKES_DIFFERENT = [
         title: "Emotional intelligence",
         color: "#DF7A2E",
         img: [N3],
-        desc: `By now most people have heard of this, but few have actually learned it. It applies at work, as a parent, as a spouse, as a friend, as a leader and as a follower. And once you get it, it’s easy.\n\nFormat:\n      Tier 2 - Skillshop series -> Tier 3 - Small groups`,
+        desc: `By now most people have heard of this, but few have actually learned it. It applies at work, as a parent, as a spouse, as a friend, as a leader and as a follower. And once you get it, it’s easy.\n\nBy now most people have heard of this, but few have actually learned it. It applies at work, as a parent, as a spouse, as a friend, as a leader and as a follower. And once you get it, it’s easy.\n\nFormat:\n      Tier 2 - (Skillshop) leading to Tier 3 - (Small groups)`,
     },
     {
         id: 4,
@@ -178,7 +178,7 @@ export const DEMO_WHAT_MAKES_DIFFERENT = [
         title: "Stronger relationships",
         color: "#2596BE",
         img: [N5],
-        desc: `5+ decades of research across 16 disciplines are undeniably clear – if you have strong and healthy relationships in the right places at the right times throughout life, you will be more financially successful, happier, physically healthier, more resilient to bumps in the road, more likely to marry and less likely divorce. It impacts all aspects of our lives.\n\nIt even impacts the life your grandchildren will lead.\n\nAnd the gap (between what you have and need) keeps changing throughout life.So this one is mission-critical.\n\nFormat:\n    Tier 1 - Self-help\n     Tier 2 - Skillshop, Skillshop series\n    Tier 3 - Small groups\n    Tier 4 - One-on-one`,
+        desc: `Five decades of research are undeniably clear. If you have healthy relationships throughout life, you will be financially more successful, happier, physically healthier, more resilient, less likely to divorce, etc.\n\nStrong relationships even impact the life your grandchildren will lead.\n\nFormat:\n<t>\tTier 1, 2, 3, 4</t>\n`,
     },
 
     {
@@ -324,48 +324,48 @@ export const DUMMY_FAMILIES_DATA = [
 export const DUMMY_WHAT_WE_DO_DATA = [
     {
         id: 1,
-        title: "Evaluation / Assessment",
-        desc: "Do we have a problem? \nEvaluation/assessment to answer the five questions.",
+        title: "Do we have a problem?",
+        desc: "Evaluation/assessment to answer the five questions.",
         color: "#266480",
         popup: {
             text: "Learn about the protocol",
             type: "text",
-            link: `We go to our family doctors every year even though there’s nothing wrong.\n\nSo what if we did that for our families health? It wouldn’t be as much about solving problems as it would be about everybody getting a chance to be heard.  And about enjoying each other at the same time.\n\nBecause time flies. And kids grow quickly.\n\nFormat\n<t>1) we have a call to establish your hopes for the tuneup</t>\n<t>2) we meet for 1½ hours – in my office or your home</t>\n<t>3) you have a good year and see you next year</t>\n<t></t>`,
+            link: `This is about taking stock of yourself and your life. What’s going well and what’s not.\n\nAnd how you take on the next challenge life throws at you.\n\nWe help answer what you need, where to find it, and what it will cost.\nAfter a few weeks, we see if it’s working and adjust if needed.\n\nProtocol\n<t>1) \t a quick call to establish goals</t>\n<t>2) \t we meet for 1 ½ hours</t>\n<t>3) \t we create a concrete action plan</t>\n<t>4) \t later, we assess whether the plan is working</t>`,
         },
         img: whatwedo1,
     },
     {
         id: 2,
-        title: "Education / Preparation",
-        desc: "Our families impact us all. And sometimes the best way to move forward is to first look backwards. So let's take stock of the past and not be beholden to it.",
+        title: "Clear path forward",
+        desc: "Insight>>Action>>Outcome\n\nWe help you structure what you need to learn so that the path forward is unmistakably clear.",
         color: "#906F2E",
         popup: {
             text: "Learn more",
             type: "text",
-            link: `Once we are out of the house (say in college) everybody looks back at their family and scratches their head. It’s normal, even necessary.\n\nThis is an opportunity to do that more objectively and more completely.\n\nBecause we want to keep the good stuff and let the other stuff go.\n\nFormat\n<t>Introductory workshop, 1.5 hours</t> \n<t>Workshop series (4 meetings), 1 ¼ hours each</t> \n<t>One-on-one meetings, sibling groups, whole families, individuals</t>\n<t>Small group meetings are available after the workshop series</t>`,
+            link: `Personal growth and development is not rocket science. It takes a very clear definition of the problem and your goal. A set of steps that will take you there.\nAnd continued encouragement and adjustment along the way. We “borrow” the US Army’s OPFOR training tactics.\n\nEverybody can do it. Tech can help.\nAsk us about (P+R)*M>S+C.\n\nProtocol\n<t>1) \t goal definition forms and solution requirements</t>\n<t>2) \t short-term action options & rehearsal</t>\n<t>3) \t measure/monitor progress and agile adjustment</t>`,
         },
     },
     {
         id: 3,
-        title: "Life Skill Learning",
-        desc: "When you just need a little nudge to address a specific life circumstance",
+        title: "Emotional intelligence boot camp",
+        desc: "Step up your game.",
         color: "#048404",
         popup: {
             text: "Learn more",
             type: "text",
-            link: `Every generation faces challenges. And Gen Z is no different – except that the challenges are bigger. Empirically bigger.\n\nMost young adults find their way – this just makes it less expensive, stronger and faster.\n\nFormat\n<t>Most tools are free to use on your own</t>\n<t>Assessment and goal setting only</t>\n<t>Young adult support groups</t>\n<t>One-on-one with Mitch</t>\n<t>Parent support groups</t>`,
+            link: `By now most people know that EQ is mission-critical. And the skills are not difficult to learn – so few of us actually do it. So this is boot camp. A no-holds-barred introduction to personal effectiveness and relational health.\n\nProtocol\n<t>1) \t initial online assessment</t>\n<t>2) \t we meet in-person or online for six hours over six weeks</t>\n<t>3) \t we work together as a group and in small groups toward personal goals</t>\n<t>4) \t we have a one-on-one meeting to assess progress and define next steps</t>\n<t>5) \t optional meetings in small groups after the boot camp to dive deeper</t>`,
         },
         img: whatwedo2,
     },
     {
         id: 4,
         title: "Life Skill Learning",
-        desc: "When you just need a little nudge to address a specific life circumstance",
+        desc: "Specific skills for specific challenges. In small doses.",
         color: "#048404",
         popup: {
             text: "Learn more",
             type: "text",
-            link: `Every generation faces challenges. And Gen Z is no different – except that the challenges are bigger. Empirically bigger.\n\nMost young adults find their way – this just makes it less expensive, stronger and faster.\n\nFormat\n<t>Most tools are free to use on your own</t>\n<t>Assessment and goal setting only</t>\n<t>Young adult support groups</t>\n<t>One-on-one with Mitch</t>\n<t>Parent support groups</t>`,
+            link: `Not everyone needs one-on-one counseling or therapy.\n\nIf you catch it early enough or are clear enough about the problem, maybe you just need a little nudge or some greater clarity.\n\nTopics can include: the family I grew up in, anger->forgiveness, career direction, power and influence, etc.\nSee Selected life skills below.\n\nFormats\n<t>\t Tier 4–individual meetings</t>\n<t>\t Tier 3–small groups of people with similar challenges</t>\n<t>\t Tier 2–Skillshops of three meetings</t>\n<t>\t Tier 1–Self-help tools and your own pace</t>`,
         },
         img: whatwedo3,
     },    

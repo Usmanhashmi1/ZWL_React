@@ -156,12 +156,15 @@ export default function Home() {
 
             <PartnerWithUs
                 title={`Partner <with us>`}
-                desc={`ZWL maintains an active referral network\nPlease reach out to partner with us.`}
-                title1={`We often refer out for:`}
-                text1={`1. One-on-one therapy\n2. Psychiatric evaluations (esp. meds)\n3. Diagnosis-based treatments (e.g. anxiety, depression, eating disorders, substance abuse, trauma, etc.)\n4. School evaluations, custody, parental alienation\n5. Interpersonal violence`}
+                desc={`Zero Wait List maintains an active referral network\nPlease reach out if you are interested.`}
+                title1={`We help you find the right services/people for:`}
+                //text1 = {`<t><m>1.</m>One-on-one therapy</t>\n<t><m>2.</m>Psychiatric evaluations (esp. meds)</t>\n<t><m>3)</m> Diagnosis-based treatments (e.g. anxiety, depression, eating disorders, substance abuse, trauma, etc.)</t>\n<t><m>4)</m> School evaluations, custody, parental alienation</t>\n<t><m>5)</m> Interpersonal violence</t>`}
+                text1 = {`<t><m>1.</m>One-on-one therapy</t>\n<t><m>2.</m>Psychiatric evaluations especially meds</t>\n<t><m>3.</m>Diagnosis-based treatments (inc. anxiety, depression, eating disorders, substance abuse, trauma, etc.)</t>\n<t><m>4.</m>School/custody evaluations, parental alienation</t>\n<t><m>5.</m>Interpersonal violence</t>`}
+
+                //text1={`1. One-on-one therapy\n2. Psychiatric evaluations (esp. meds)\n3. Diagnosis-based treatments (e.g. anxiety, depression, eating disorders, substance abuse, trauma, etc.)\n4. School evaluations, custody, parental alienation\n5. Interpersonal violence`}
             
                 title2={`We partner with:`}
-                text2={`1. Primary care physician groups\n2. Therapists in group practices\n3. Human service agencies\n4. Mediators/teachers/mentors/facilitators\n5. Psychiatrists/Psychiatric RNs\n6. People who create community\n7. Hospital social workers\n8. Interested nonprofessionals (moms, dads)\n9. Civic organizations\n10. Business builders`}
+                text2 = {`<t><m>1.</m>People who create community</t>\n<t><m>2.</m>Business builders</t>\n<t><m>3.</m>Primary care physicians</t>\n<t><m>4.</m>Therapists</t>\n<t><m>5.</m>Human service agencies</t>\n<t><m>6.</m>Mentors, facilitators, teachers, mediators/</t>\n<t><m>7.</m>Psychiatrists/Psychiatric RNs</t>\n<t><m>8.</m>Civic organizations</t>\n<t><m>9.</m>Interested nonprofessionals (moms, dads)</t>`}
             />            
 
             {/* <DocketSection dockets={DEMO_DOCKETS} title={`What's on the <Docket?>`} /> */}

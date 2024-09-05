@@ -2461,6 +2461,10 @@ video {
     max-width: 900px;
   }
 
+  .md\:max-w-\[680px\] {
+    max-width: 680px;
+  }
+
   .md\:basis-1\/2 {
     flex-basis: 50%;
   }
@@ -2499,6 +2503,18 @@ video {
 
   .md\:gap-6 {
     gap: 1.5rem;
+  }
+
+  .md\:gap-1 {
+    gap: 0.25rem;
+  }
+
+  .md\:gap-0 {
+    gap: 0px;
+  }
+
+  .md\:gap-0\.5 {
+    gap: 0.125rem;
   }
 
   .md\:border-gray-300 {

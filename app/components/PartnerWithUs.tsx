@@ -39,10 +39,10 @@ const PartnerWithUs = (props: PartnerWithUsProps) => {
             {/* Description */}
             {props.desc && (
                 <div className="w-full flex justify-center mb-10">
-                    <div className="md:max-w-[640px]">
+                    <div className="md:max-w-[680px]">
                         <HighlightText
                             text={props.desc}
-                            className="lg:text-3xl text-2xl text-center font-normal whitespace-pre-wrap"
+                            className="lg:text-2xl text-1xl text-center font-normal whitespace-pre-wrap"
                         />
                     </div>
                 </div>
@@ -59,10 +59,12 @@ const PartnerWithUs = (props: PartnerWithUsProps) => {
                         />
                     )}
                     {props.text1 && (
-                        <p className="lg:text-2xl text-1xl font-normal whitespace-pre-wrap mt-4 lg:ml-8 ml-4">
-                            {props.text1}
-                        </p>
-                    )}
+                        <HighlightText
+                            text={props.text1}
+                            className="lg:text-2xl sm:text-2xl whitespace-pre-wrap text-xl"
+                            spanClass="!inline-flex items-start md:gap-0.5"
+                        />
+                    )}                
                     {props.btn1 && (
                         <div className="mt-4">
                             {props.btn1.type === "video" && <ModalVideo text={props.btn1.text} videoId="" />}
@@ -88,10 +90,12 @@ const PartnerWithUs = (props: PartnerWithUsProps) => {
                         />
                     )}
                     {props.text2 && (
-                        <p className="lg:text-2xl text-1xl font-normal whitespace-pre-wrap mt-4 lg:ml-8 ml-4">
-                            {props.text2}
-                        </p>
-                    )}
+                        <HighlightText
+                            text={props.text2}
+                            className="lg:text-2xl sm:text-2xl whitespace-pre-wrap text-xl"
+                            spanClass="!inline-flex items-start md:gap-0.5"
+                        />
+                    )}     
                     {props.btn2 && (
                         <div className="mt-4">
                             {props.btn2.type === "video" && <ModalVideo text={props.btn2.text} videoId="" />}
