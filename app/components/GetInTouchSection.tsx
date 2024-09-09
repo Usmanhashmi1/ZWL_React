@@ -125,10 +125,11 @@ const GetInTouchSection = (props: GetInTouchSectionProps) => {
                 {props.title && (
                     <HighlightText text={props.title} className="lg:text-6xl text-4xl font-medium text-center" />
                 )}
-                <HighlightText
-                    className="text-center text-2xl text-gray-500"
-                    text="Response emails from us will come from Mitch Dickey at Relational Intelligence."
-                />
+                <div className="text-center text-2xl text-gray-500">
+                    <HighlightText text="Response emails from us will come from" />
+                    <HighlightText text="Mitch Dickey at Relational Intelligence." />
+                </div>
+
             </div>
             <Form {...contactForm}>
                 <form

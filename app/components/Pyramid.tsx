@@ -50,7 +50,7 @@ const Pyramid = (props: PyramidProps) => {
                 )}                
                 <div className="flex flex-row gap-8 mt-8 w-full max-w-4xl justify-center mb-16">
                     {props.tagline && props.tagline.title && (
-                        <div className="flex items-center gap-4 px-6 py-3 bg-[#266480] text-white rounded-tr-2xl rounded-bl-2xl">
+                        <div className="flex items-center gap-4 px-6 py-3 bg-[#4472C5] text-white rounded-tr-2xl rounded-bl-2xl">
                             <HighlightText text={props.tagline.title} className="text-2xl" />
                             {props.tagline.btnTxt && (
                                 <ModalPdf text={props.tagline.btnTxt} file={props.tagline.link ?? ""} />
@@ -71,7 +71,7 @@ const Pyramid = (props: PyramidProps) => {
                         <div className="flex flex-col items-center w-full">
                             {/* Level 4 */}
                             <AccordionItem value="level4" className="w-full max-w-[50%] lg:max-w-[35%]">
-                                <div className="p-4 border-4 bg-[#BD7A30] mx-auto flex-col items-center justify-center rounded-tr-3xl rounded-bl-3xl shadow-lg transition-all duration-300 ease-in-out">
+                                <div className="p-4 border-4 bg-[#916F2D] mx-auto flex-col items-center justify-center rounded-tr-3xl rounded-bl-3xl shadow-lg transition-all duration-300 ease-in-out">
                                     <AccordionTrigger className="text-white w-full p-2">
                                         <div className="w-full">
                                             {props.pyramid.title4 && (
@@ -171,9 +171,9 @@ const Pyramid = (props: PyramidProps) => {
                                 </div>
                             </AccordionItem>
 
-                            {/* Level 1 */}
-                            <AccordionItem value="level1" className="w-full max-w-[80%] lg:max-w-[60%]">
-                                <div className="p-4 border-4 bg-[#4472C5] mx-auto flex-col items-center justify-center rounded-tr-3xl rounded-bl-3xl shadow-lg transition-all duration-300 ease-in-out">
+                            {/* Level 1  #4472C5  */}
+                            <AccordionItem value="level1" className="w-full max-w-[80%] lg:max-w-[60%]"> 
+                                <div className="p-4 border-4 bg-[#266480] mx-auto flex-col items-center justify-center rounded-tr-3xl rounded-bl-3xl shadow-lg transition-all duration-300 ease-in-out">
                                     <AccordionTrigger className="text-white w-full p-2">
                                         <div className="w-full">
                                             {props.pyramid.title1 && (

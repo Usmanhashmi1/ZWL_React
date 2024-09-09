@@ -52,7 +52,7 @@ import N11 from "@/public/assets/PTO venn diagram 4g.png";
 import whatwedo1 from "@/public/assets/clinical-research-graph.jpg";
 import whatwedo2 from "@/public/assets/Woman-emotions-in-cells-face-show hide-swings.jpg";
 import whatwedo3 from "@/public/assets/Village-India-scene-weaving.jpg";
-import whatwedo4 from "@/public/assets/Clear path forward - but winding.jpg";
+import whatwedo4 from "@/public/assets/Bridge-and-Sunset.jpg";
 import Image from "next/image";
 
 export const DEMO_TESTIMONIES = [
@@ -199,7 +199,7 @@ export const DEMO_WHAT_MAKES_DIFFERENT = [
     {
         id: 7,
         title: "The family I grew up in",
-        color: "#DF7A2E",
+        color: "#906F2E",
         desc: `We all grew up in a family of some sort. It had pros and cons. And it is the main vehicle by which we transfer values, attitudes, wealth, education etc. across the generations.\nFamilies are beautiful, fragile and messy.\n\nIn the more we understand their impact on us, the clearer we can be about what we want to continue or discontinue.\n\nFormat:\n<t>Tier 2 – Skillshop series of six meetings</t>\n<t>Tier 3 – Small groups</t>\n`,
         img: [N7],
     },    
@@ -215,7 +215,7 @@ export const DEMO_WHAT_MAKES_DIFFERENT = [
     {
         id: 9,
         title: "Strong as a person",
-        color: "#5C8F95",
+        color: "#266480",
         desc: `This is about stepping up when we’d rather step down, about being wanted and noticed for who we are and what we bring to the table.\n\nIt’s about small, daily, tactical strength. A single push - up, five times a day.\n\nFormat:\n <t>Tier 1 – Self - help</t>\n <t>Tier 2 – Skillshop</t>\n<t> Tier 3 – Small groups</t>\n <t>Tier 4 – One-on-one</t>\n`,
         img: [N9],
     },    
@@ -223,7 +223,7 @@ export const DEMO_WHAT_MAKES_DIFFERENT = [
     {
         id: 10,
         title: "Getting heard/Acquiring influence",
-        color: "#906F2E",
+        color: "#DF7A2E",
         desc: `Have you noticed that some people tend to get heard within a group or team? And other people don’t.\nThis one takes a bit more time, but it’s important at all ages and in all walks of life. \n\nFormat:\n<t>Tier 1 – Self-help</t>\n<t>Tier 2 – Skillshop</t>\n<t>Tier 3 – Small groups</t>\n<t>Tier 4 – One-on-one</t>\n`,
         img: [N10],
     },  
@@ -325,9 +325,9 @@ export const DUMMY_FAMILIES_DATA = [
 export const DUMMY_WHAT_WE_DO_DATA = [
     {
         id: 1,
-        title: "Do we have a problem?",
-        desc: "Evaluation/assessment to answer the five questions.",
-        color: "#266480",
+        title: "Assessment/Evaluation",
+        desc: "1. Do we have a problem – what is it?\n2. Do we need help – what kind?\n3. Where do I find it?\n4. What does it cost?\n5. Will it do any good?",
+        color: "#266480", //266480
         popup: {
             text: "Learn about the protocol",
             type: "text",
@@ -363,7 +363,7 @@ export const DUMMY_WHAT_WE_DO_DATA = [
         id: 4,
         title: "Life Skill Learning",
         desc: "Specific skills for specific challenges. In small doses.",
-        color: "#048404",
+        color: "#df7a2e",
         popup: {
             text: "Learn more",
             type: "text",

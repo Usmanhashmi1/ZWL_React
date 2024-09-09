@@ -71,7 +71,7 @@ const Navbar = (props: NavbarProps) => {
                                                 smooth={true}
                                                 spy={true}
                                             >
-                                                What
+                                                What we do
                                             </Link>
                                         </SheetTrigger>
                                         <SheetTrigger asChild>
@@ -83,7 +83,7 @@ const Navbar = (props: NavbarProps) => {
                                                 smooth={true}
                                                 spy={true}
                                             >
-                                                How
+                                                How we do it
                                             </Link>
                                         </SheetTrigger>
                                         {/* <SheetTrigger asChild>
@@ -100,6 +100,18 @@ const Navbar = (props: NavbarProps) => {
                                         </SheetTrigger> */}
                                         <SheetTrigger asChild>
                                             <Link
+                                                to="Section3"
+                                                className="cursor-pointer font-normal md:text-2xl text-xl text-primary bg-[#E8DED4] hover:bg-[#F4EADF] rounded-xl w-full text-start px-4 py-1"
+                                                offset={-60}
+                                                duration={500}
+                                                smooth={true}
+                                                spy={true}
+                                            >
+                                                Partnering
+                                            </Link>
+                                        </SheetTrigger>
+                                        <SheetTrigger asChild>
+                                            <Link
                                                 to="WhO"
                                                 className="cursor-pointer font-normal md:text-2xl text-xl text-primary bg-[#E8DED4] hover:bg-[#F4EADF] rounded-xl w-full text-start px-4 py-1"
                                                 offset={-60}
@@ -107,19 +119,7 @@ const Navbar = (props: NavbarProps) => {
                                                 smooth={true}
                                                 spy={true}
                                             >
-                                                Who
-                                            </Link>
-                                        </SheetTrigger>
-                                        <SheetTrigger asChild>
-                                            <Link
-                                                to="Contact"
-                                                className="cursor-pointer font-normal md:text-2xl text-xl text-primary bg-[#E8DED4] hover:bg-[#F4EADF] rounded-xl w-full text-start px-4 py-1"
-                                                offset={-60}
-                                                duration={500}
-                                                smooth={true}
-                                                spy={true}
-                                            >
-                                                Contact
+                                                Who we are
                                             </Link>
                                         </SheetTrigger>
                                     </SheetDescription>
@@ -183,17 +183,17 @@ const Navbar = (props: NavbarProps) => {
                                 Tools
                             </Link> */}
                             <Link
-                                to="Who"
+                                to="Section3"
                                 className="cursor-pointer"
                                 offset={-100}
                                 duration={500}
                                 smooth={true}
                                 spy={true}
                             >
-                                Partner
+                                Partnering
                             </Link>
                             <Link
-                                to="Contact"
+                                to="Who"
                                 className="cursor-pointer"
                                 offset={-100}
                                 duration={500}

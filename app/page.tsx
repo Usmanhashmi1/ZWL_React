@@ -116,9 +116,9 @@ export default function Home() {
                 line2={`This is not built to handle emergencies.\nPeople in emergent situations should go to their local Emergency Departments.`} 
                 /*tagline={{ title: `Tiers, formats and pricing`, btnTxt: "Learn more", link: "/assets/pdfs/Tiers.pdf" }}*/
                 tagline={{
-                    title: "Product Format",
+                    title: "Format & Pricing",
                     btnTxt: "More Info",
-                    link: "/assets/pdfs/Product Formats-2024.pdf"
+                    link: "/assets/pdfs/ZWL-Product format and pricingMHDsite-September-5-2024.pdf"
                 }}
                  /*
                 tagline1={{
@@ -129,19 +129,19 @@ export default function Home() {
                 pyramid={{
                     title1: `Tier 1 – Self-help - free or $\n`,
                     text1: `Enough for some–A start for many. Self-organized peer-to-peer learning`,
-                    desc1: 'To provide broad accessibility, we have a self-help tier. Digital tools, worksheets, and assessments help you learn something about yourself and your situation. If you want, you can self-organize with others for peer-to-peer learning.\n\nIn the future, this self-help layer will become more personalized to you and be able to measure/monitor your growth. But not yet.\n\nCost: freemium model – free for two months and then a subscription of $39/month.',
+                    desc1: 'Our self-help tier provides digital tools, worksheets, and assessments at no cost for a month or two.\n\nIf you want, you can self-organize with others for peer-to-peer learning.\n\nIn the future, Tier 1 will become more personalized to you , and you will be able to measure/monitor your growth. But not yet',
                     
                     title2: `Tier 2 – Skillshops - $`,
                     text2: `Practical workshops–topics as needed`,
-                    desc2: 'Perhaps you don’t need therapy or small groups, but want some greater insights and/or skills. Perhaps until you find a small group or a therapist. Skillshops are 1) participative/interactive, and 2) focused on practical actions and skills.\n\n Each Skillshop is designed around a particular issue, need, or topic. Some Skillshops are longer and include a series of 6+ meetings.\n\n How it works:\n <t>1. Register and fill out a questionnaire.</t>\n <t>2. Attend a 75-minute in-person workshop.</t>\n <t>3. 30-minute virtual group meeting one week later.</t>\n<t>4. Another 30-minute virtual group meeting two weeks after that.</t>\n\nCost: $150 for the basic three-meeting Skillshop. Skillshop series are priced by number of meetings.',
+                    desc2: 'Skillshops are interactive and focused on practical actions.\nEach Skillshop is designed around a particular need or topic.\n\nSkillshops consist of:\n\tOne 75-minute in person meeting\n\tTwo 30-minute online meetings\n\tA personalized report\n\tGroup chats between meetings\n\n12 - 24 people per Skillshop',
 
                     title3: `Tier 3 – Small groups - $$`,
                     text3: `The rubber meets the road–Expect change`,
-                    desc3: 'Working on yourself in a small group of others is a cost-effective way of making real change. We curate who is in which groups to promote the best learning experience. Each participant has a personalized learning/growth plan.\n\n Cost:\n - Groups of 5 or 6 people: $70/meeting\n - Groups of 8-10 people: $50/meeting\n',
+                    desc3: 'Small groups can be very cost-effective.\nWe form who is in which group intentionally.\nEach participant has a personalized growth plan.\n\nGroups of 4-7 or 8-10 people.',
 
                     title4: `Tier 4 – One-on-One - $$$`,
                     text4: `Answer the 5 questions`,
-                    desc4: 'We help you answer the five questions about what you need, where to find it, and cost-effectiveness. This can save a LOT of time and money versus choosing the wrong therapist or pathway forward.\n\nQuicker Option\nYou fill out some forms, and we meet in person. We come to an understanding of the situation you’re in and make a plan for next steps. Referral directly to a therapist if needed.  \nCost: $350\n\nDeeper Option\n15-minute orientation call \n Personalized forms for you, your spouse, and/or family  \nWe meet for 1.5 hours, debrief forms, define goals, and explore solutions\n  We make a clear action plan with options depending on budget, timing, etc.  \nWe follow up later to make sure the action plan is working\n  Cost: $750\n\nOptional Add-on to Deeper Option\nIndividually-curated set of sequential resources, content, and worksheet-like tools  \nPersonalized learning agenda with steps, goals, and progress measures  \nCost: $150\n\n',
+                    desc4: 'We help you answer 5 questions:\n\t1. Do we have a problem – what is it?\n\t2. Do we need help – what kind?\n\t3. Where do I find it?\n\t4. What does it cost?\n\t5. Will it do any good?\n\nQuicker Option\nEvaluation and referral.\n\nDeeper Option\nLonger meetings, clear action plan with options.\nWe follow up later to make sure the action plan is working\n\nOptional Add-on\nIndividually-curated resources and personalized learning agenda',
                 }}
             /> }    
  
