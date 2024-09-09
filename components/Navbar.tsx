@@ -138,7 +138,7 @@ const Navbar = (props: NavbarProps) => {
                             spy={true}
                             className="cursor-pointer"
                         >
-                            <p className="text-4xl font-bold text-[#df7a2e]">Zero Wait List</p>
+                            <p className="text-4xl font-bold text-[#df7a2e]"> </p>
                         </Link>
 
                         <div className="border lg:gap-8 gap-6 text-primary font-normal text-2xl py-6 rounded-full border-black flex items-center justify-center lg:px-20 px-8">

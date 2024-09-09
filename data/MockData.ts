@@ -52,6 +52,7 @@ import N11 from "@/public/assets/PTO venn diagram 4g.png";
 import whatwedo1 from "@/public/assets/clinical-research-graph.jpg";
 import whatwedo2 from "@/public/assets/Woman-emotions-in-cells-face-show hide-swings.jpg";
 import whatwedo3 from "@/public/assets/Village-India-scene-weaving.jpg";
+import whatwedo4 from "@/public/assets/Clear path forward - but winding.jpg";
 import Image from "next/image";
 
 export const DEMO_TESTIMONIES = [
@@ -143,7 +144,7 @@ export const DEMO_WHAT_MAKES_DIFFERENT = [
         id: 1,
         title: "Define the problem",
         color: "#048404",
-        desc: `Investment pitches begin with defining the problem the company solves. And a high percentage of counseling failures consist in not clearly defining a solvable problem.\n\nWe want to get you started on the right foot.\nSo that the result you want and the path to reach it are both clear.\n\nFormat:\n\n<t>1) \tTier 1</t>\n<t>2)\tTier 2</t>\n<t>3)\tTier 4</t>`,
+        desc: `Investment pitches begin with defining the problem the company solves.\nAnd a high percentage of counseling failures consist in not clearly defining a solvable problem.\n\nWe want to get you started on the right foot.\nSo that the result you want and the path to reach it are both clear.\n\nFormat: Tiers 1, 2 and 4`,
         img: [N1],
         /*moreInfo: {
             title: "",
@@ -344,6 +345,7 @@ export const DUMMY_WHAT_WE_DO_DATA = [
             type: "text",
             link: `Personal growth and development is not rocket science. It takes a very clear definition of the problem and your goal. A set of steps that will take you there.\nAnd continued encouragement and adjustment along the way. We “borrow” the US Army’s OPFOR training tactics.\n\nEverybody can do it. Tech can help.\nAsk us about (P+R)*M>S+C.\n\nProtocol\n<t>1) \t goal definition forms and solution requirements</t>\n<t>2) \t short-term action options & rehearsal</t>\n<t>3) \t measure/monitor progress and agile adjustment</t>`,
         },
+        img: whatwedo4,
     },
     {
         id: 3,

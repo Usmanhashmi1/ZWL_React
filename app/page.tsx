@@ -98,13 +98,13 @@ export default function Home() {
             />*/}
 
             <CardsComponent
-                header={`What we do`}
+                header={`Overview`}
                 // title={`<Families> – beautiful, fragile, messy`}
-                sectionDetails={{
+                /*sectionDetails={{
                     btnText: "4 Steps to Cost-Effective Help",
                     link: "/assets/pdfs/TiersFormatsPricing.pdf",
                     type: "pdf",
-                }}
+                }} */
                 // tagline="The crucible of identity"
                 data={DUMMY_WHAT_WE_DO_DATA}
             />
@@ -120,11 +120,12 @@ export default function Home() {
                     btnTxt: "More Info",
                     link: "/assets/pdfs/Product Formats-2024.pdf"
                 }}
+                 /*
                 tagline1={{
                     title: "POV on Pricing",
                     btnTxt: "More Info",
                     link: "/assets/pdfs/Pov-pricing-2024.pdf"
-                }}                   
+                }}   */                
                 pyramid={{
                     title1: `Tier 1 – Self-help - free or $\n`,
                     text1: `Enough for some–A start for many. Self-organized peer-to-peer learning`,
@@ -157,7 +158,7 @@ export default function Home() {
             <PartnerWithUs
                 title={`Partner <with us>`}
                 desc={`Zero Wait List maintains an active referral network\nPlease reach out if you are interested.`}
-                title1={`We help you find the right services/people for:`}
+                title1={`We have the right people for:`}
                 //text1 = {`<t><m>1.</m>One-on-one therapy</t>\n<t><m>2.</m>Psychiatric evaluations (esp. meds)</t>\n<t><m>3)</m> Diagnosis-based treatments (e.g. anxiety, depression, eating disorders, substance abuse, trauma, etc.)</t>\n<t><m>4)</m> School evaluations, custody, parental alienation</t>\n<t><m>5)</m> Interpersonal violence</t>`}
                 text1 = {`<t><m>1.</m>One-on-one therapy</t>\n<t><m>2.</m>Psychiatric evaluations especially meds</t>\n<t><m>3.</m>Diagnosis-based treatments (inc. anxiety, depression, eating disorders, substance abuse, trauma, etc.)</t>\n<t><m>4.</m>School/custody evaluations, parental alienation</t>\n<t><m>5.</m>Interpersonal violence</t>`}
 

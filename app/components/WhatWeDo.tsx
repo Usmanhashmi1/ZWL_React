@@ -40,7 +40,7 @@ const CardsComponent = (props: CardsComponentProps) => {
                         />
                     )}
 
-                    <div className={cn("w-full flex justify-center", props.header ? "lg:mb-20 mb-10" : "")}>
+                    {/*<div className={cn("w-full flex justify-center", props.header ? "lg:mb-20 mb-10" : "")}>
                         {props.sectionDetails && props.sectionDetails.type === "pdf" && (
                             <ModalPdf
                                 file={props.sectionDetails.link}
@@ -69,8 +69,8 @@ const CardsComponent = (props: CardsComponentProps) => {
                             text={props.tagline}
                             className="lg:text-3xl text-2xl  font-normal whitespace-pre-wrap"
                         />
-                    )}
-                </div>
+                    )}  */}
+                </div> 
                 {props.data && props.data.length !== 22 && (
                     <div className="grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-8 gap-4">
                         {props.data &&
