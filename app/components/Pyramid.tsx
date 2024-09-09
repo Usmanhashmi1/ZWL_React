@@ -39,16 +39,16 @@ const Pyramid = (props: PyramidProps) => {
                 {props.title && (
                     <HighlightText
                         text={props.title}
-                        className="text-center 2xl:text-7xl lg:text-6xl text-4xl font-medium whitespace-pre-wrap mb-8"
+                        className="text-center 2xl:text-7xl lg:text-6xl text-4xl font-medium whitespace-pre-wrap mb-2"
                     />
                 )}
                 {props.line && (
                     <HighlightText
                         text={props.line}
-                        className="lg:text-2xl text-1xl text-center font-normal whitespace-pre-wrap mb-8"
+                        className="lg:text-3xl text-2xl text-center font-normal whitespace-pre-wrap mb-8"
                     />
                 )}                
-                <div className="flex flex-row gap-8 mt-8 w-full max-w-4xl justify-center mb-16">
+                <div className="flex flex-row gap-8 mt-8 w-full max-w-4xl justify-center mb-5">
                     {props.tagline && props.tagline.title && (
                         <div className="flex items-center gap-4 px-6 py-3 bg-[#4472C5] text-white rounded-tr-2xl rounded-bl-2xl">
                             <HighlightText text={props.tagline.title} className="text-2xl" />

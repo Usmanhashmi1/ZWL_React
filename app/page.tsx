@@ -112,7 +112,7 @@ export default function Home() {
 
             { <Pyramid
                 title={`Pathways <& Pricing>`}
-                line={`Get as little or as much as you need. Start anywhere→go any where.`} 
+                line={`Get as little or as much as you need.`} 
                 line2={`This is not built to handle emergencies.\nPeople in emergent situations should go to their local Emergency Departments.`} 
                 /*tagline={{ title: `Tiers, formats and pricing`, btnTxt: "Learn more", link: "/assets/pdfs/Tiers.pdf" }}*/
                 tagline={{
@@ -157,7 +157,7 @@ export default function Home() {
 
             <PartnerWithUs
                 title={`Partner <with us>`}
-                desc={`Zero Wait List maintains an active referral network\nPlease reach out if you are interested.`}
+                desc={`Zero Wait List maintains an active referral network\nPlease reach out to talk with us.`}
                 title1={`We have the right people for:`}
                 //text1 = {`<t><m>1.</m>One-on-one therapy</t>\n<t><m>2.</m>Psychiatric evaluations (esp. meds)</t>\n<t><m>3)</m> Diagnosis-based treatments (e.g. anxiety, depression, eating disorders, substance abuse, trauma, etc.)</t>\n<t><m>4)</m> School evaluations, custody, parental alienation</t>\n<t><m>5)</m> Interpersonal violence</t>`}
                 text1 = {`<t><m>1.</m>One-on-one therapy</t>\n<t><m>2.</m>Psychiatric evaluations especially meds</t>\n<t><m>3.</m>Diagnosis-based treatments (inc. anxiety, depression, eating disorders, substance abuse, trauma, etc.)</t>\n<t><m>4.</m>School/custody evaluations, parental alienation</t>\n<t><m>5.</m>Interpersonal violence</t>`}

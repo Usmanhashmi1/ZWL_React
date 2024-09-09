@@ -35,7 +35,7 @@ const CardsComponent = (props: CardsComponentProps) => {
                             text={props.header}
                             className={cn(
                                 "text-center w-full 2xl:text-8xl lg:text-7xl text-5xl font-medium whitespace-pre-wrap",
-                                props.sectionDetails && props.sectionDetails.btnText ? "" : "lg:mb-20 mb-10"
+                                props.sectionDetails && props.sectionDetails.btnText ? "" : "lg:mb-2 mb-1"
                             )}
                         />
                     )}
