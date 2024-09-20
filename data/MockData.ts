@@ -326,7 +326,7 @@ export const DUMMY_WHAT_WE_DO_DATA = [
     {
         id: 1,
         title: "Assessment/Evaluation",
-        desc: "1. Do we have a problem – what is it?\n2. Do we need help – what kind?\n3. Where do I find it?\n4. What does it cost?\n5. Will it do any good?",
+        desc: "1. Do we have a problem–what is it?\n2. Do we need help–what kind?\n3. Where do I find it?\n4. What does it cost?\n5. Will it do any good?",
         color: "#266480", //266480
         popup: {
             text: "Learn about the protocol",

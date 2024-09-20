@@ -128,7 +128,7 @@ const Navbar = (props: NavbarProps) => {
                         </Sheet>
                     </div>
                     {/* Desktop Navbar */}
-                    <div className="md:flex hidden lg:px-6 px-0 py-2 gap-[10%] xl:gap-[25%] items-center rounded-sm">
+                    <div className="md:flex hidden lg:px-6 px-0 py-2 gap-[25%] xl:gap-[35%] items-center rounded-sm">
                         <Link
                             to="Home"
                             activeClass="none"

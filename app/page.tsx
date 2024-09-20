@@ -40,7 +40,7 @@ import CardsComponent from "./components/WhatWeDo";
 export default function Home() {
     return (
         <div className="bg-[#F4EADF] min-h-screen">
-            <Navbar brandName="The <Inflection> Point" />
+            <Navbar brandName="Zero Wait <List>" />
 
             <HeroSection
                 title={`Zero <Wait list>`}

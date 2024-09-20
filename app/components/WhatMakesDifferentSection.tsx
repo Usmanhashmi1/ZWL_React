@@ -32,17 +32,17 @@ interface WhatMakesDifferentSectionProps {
 
 const WhatMakesDifferentSection = (props: WhatMakesDifferentSectionProps) => {
     return (
-        <section id="How" className="flex flex-col items-center justify-center px-8 gap-10 bg-[#F0EFEE]">
+        <section id="How" className="flex flex-col items-center justify-center px-8 gap-5 bg-[#F0EFEE]">
             <div className="mt-32">
                 <HighlightText
                     text={props.title}
                     className="text-center 2xl:text-7xl lg:text-6xl text-4xl font-medium whitespace-pre-wrap"
                 />
             </div>
-            <div className="md:max-w-[640px]">
+            <div className="md:max-w-[780px]">
                 <HighlightText
                     text={props.desc}
-                    className="lg:text-2xl text-1xl text-center font-normal whitespace-pre-wrap"
+                    className="lg:text-3xl text-2xl text-center font-normal whitespace-pre-wrap"
                 />
             </div>
 
